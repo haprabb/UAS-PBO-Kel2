@@ -2,30 +2,31 @@ package hargaBahan;
 import toppingFilling.toppingFilling;
 public class beratKemasanToppingFilling implements toppingFilling {
     public int Keju() {
-        return 0;
+
+        return 31_000;
     }
 
     public int Coklat() {
-        return 0;
+        return 29_000;
     }
 
     public int KrimVanilla() {
-        return 0;
+        return 30_000;
     }
 
     public int SelaiRedBEan() {
-        return 0;
+        return 25_000;
     }
 
     public int Sosis() {
-        return 0;
+        return 80_000;
     }
 
     public int SmokeBeef() {
-        return 0;
+        return 90_000;
     }
 
     public int BawangBombay() {
-        return 0;
+        return 40_000;
     }
 }

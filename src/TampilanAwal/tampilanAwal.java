@@ -19,7 +19,9 @@ public class tampilanAwal {
         System.out.println("Varian 2 [ Dengan isian Keju ]");
         System.out.println("Pizza dengan 1 Varian");
         System.out.println("Dengan topping keju, Sosis, Smoked Beef dan bawang Bombay");
-        System.out.println();
+
+
+
     }
 
 

@@ -3,16 +3,19 @@ import Bahan.bahanRoti;
 public class pizza implements bahanRoti{
 
     public int TepungTerigu() {
+
         return 1_000;
     }
 
 
     public int gulaPasir() {
+
         return 100;
     }
 
 
     public int butter() {
+
         return 100;
     }
 
@@ -40,10 +43,4 @@ public class pizza implements bahanRoti{
     public int esBatu() {
         return 300;
     }
-
-    public void bahanRoti(){
-
-
-    }
-
 }

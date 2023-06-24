@@ -2,34 +2,34 @@ package hargaBahan;
 import Bahan.bahanRoti;
 public class beratKemasanBahanRoti implements bahanRoti {
     public int TepungTerigu() {
-        return 0;
+        return 40_000;
     }
 
     public int gulaPasir() {
-        return 0;
+        return 25_000;
     }
 
     public int butter() {
-        return 0;
+        return 23_000;
     }
 
     public int ragi() {
-        return 0;
+        return 5_000;
     }
 
     public int susuBubuk() {
-        return 0;
+        return 39_000;
     }
 
     public int susuCair() {
-        return 0;
+        return 24_000;
     }
 
     public int telur() {
-        return 0;
+        return 23_000;
     }
 
     public int esBatu() {
-        return 0;
+        return 2_000;
     }
 }

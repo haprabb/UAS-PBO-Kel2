@@ -3,7 +3,6 @@ import Bahan.bahanRoti;
 
 public class rotiManis implements bahanRoti {
     public int TepungTerigu() {
-
         return 1_000;
     }
 
