@@ -1,44 +1,44 @@
 package Main;
-
 import Bahan.bahanRoti;
 
 public class rotiManis implements bahanRoti {
     public int TepungTerigu() {
 
-        return 0;
+        return 1_000;
     }
 
     public int gulaPasir() {
 
-        return 0;
+        return 150;
     }
 
     public int butter() {
-        return 0;
+
+        return 150;
     }
 
     public int ragi() {
 
-        return 0;
+        return 20;
     }
 
     public int susuBubuk() {
 
-        return 0;
+        return 300;
     }
 
     public int susuCair() {
 
-        return 0;
+        return 250;
     }
 
     public int telur() {
 
-        return 0;
+        return 80;
     }
 
     public int esBatu() {
 
-        return 0;
+        return 400;
     }
 }

@@ -3,7 +3,7 @@ import toppingFilling.toppingFilling;
 public class rotiTawarV2 implements toppingFilling{
     @Override
     public int Keju() {
-        return 0;
+        return 80;
     }
 
     @Override

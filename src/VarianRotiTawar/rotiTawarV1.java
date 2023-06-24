@@ -9,7 +9,7 @@ public class rotiTawarV1 implements toppingFilling{
 
     @Override
     public int Coklat() {
-        return 0;
+        return 80;
     }
 
     @Override

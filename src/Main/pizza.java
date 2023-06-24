@@ -3,41 +3,47 @@ import Bahan.bahanRoti;
 public class pizza implements bahanRoti{
 
     public int TepungTerigu() {
-        return 0;
+        return 1_000;
     }
 
 
     public int gulaPasir() {
-        return 0;
+        return 100;
     }
 
 
     public int butter() {
-        return 0;
+        return 100;
     }
 
 
     public int ragi() {
-        return 0;
+        return 20;
     }
 
 
     public int susuBubuk() {
-        return 0;
+        return 200;
     }
 
 
     public int susuCair() {
-        return 0;
+        return 180;
     }
 
 
     public int telur() {
-        return 0;
+        return 50;
     }
 
 
     public int esBatu() {
-        return 0;
+        return 300;
     }
+
+    public void bahanRoti(){
+
+
+    }
+
 }
