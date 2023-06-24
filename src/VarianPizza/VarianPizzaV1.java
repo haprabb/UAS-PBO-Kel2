@@ -1,8 +1,8 @@
-package hargaBahan;
+package VarianPizza;
 import toppingFilling.toppingFilling;
-public class beratKemasanToppingFilling implements toppingFilling {
+public class VarianPizzaV1 implements toppingFilling {
     public int Keju() {
-        return 0;
+        return 30;
     }
 
     public int Coklat() {
@@ -18,14 +18,14 @@ public class beratKemasanToppingFilling implements toppingFilling {
     }
 
     public int Sosis() {
-        return 0;
+        return 50;
     }
 
     public int SmokeBeef() {
-        return 0;
+        return 50;
     }
 
     public int BawangBombay() {
-        return 0;
+        return 30;
     }
 }
