@@ -4,7 +4,7 @@ import Bahan.bahanRoti;
 public class rotiTawar implements bahanRoti {
     public int TepungTerigu() {
 
-        return 1_000;
+        return 1000;
     }
 
     public int gulaPasir() {
@@ -29,7 +29,7 @@ public class rotiTawar implements bahanRoti {
 
     public int susuCair() {
 
-        return 220;
+        return 200;
     }
 
     public int telur() {

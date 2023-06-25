@@ -21,26 +21,31 @@ public class pizza implements bahanRoti{
 
 
     public int ragi() {
+
         return 20;
     }
 
 
     public int susuBubuk() {
+
         return 200;
     }
 
 
     public int susuCair() {
+
         return 180;
     }
 
 
     public int telur() {
+
         return 50;
     }
 
 
     public int esBatu() {
+
         return 300;
     }
 }
