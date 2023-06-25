@@ -2,7 +2,7 @@ package VarianRotiManis;
 import toppingFilling.toppingFilling;
 public class v3 implements toppingFilling{
     @Override
-    public int Keju() {
+    public void Keju() {
 
         return 10;
     }

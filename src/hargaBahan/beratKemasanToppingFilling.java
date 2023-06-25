@@ -6,7 +6,7 @@ public class beratKemasanToppingFilling implements toppingFilling {
  int weight;
 
     public int Keju() {
-        return 0;
+        return 10;
     }
 
     public int Coklat() {

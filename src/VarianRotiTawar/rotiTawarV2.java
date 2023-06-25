@@ -2,7 +2,7 @@ package VarianRotiTawar;
 import toppingFilling.toppingFilling;
 public class rotiTawarV2 implements toppingFilling{
     @Override
-    public int Keju() {
+    public void Keju() {
         return 80;
     }
 
