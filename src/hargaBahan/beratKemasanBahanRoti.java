@@ -6,72 +6,38 @@ import javax.swing.*;
 public class beratKemasanBahanRoti implements bahanRoti {
     int weight;
     public int TepungTerigu() {
-        if (this.weight > 1000){
-            int price = this.weight * 40000;
-            return price;
-        } else {
-            return 40000;
-        }
+        int price = 40000 / 1000;
+        return price;
     }
     public int gulaPasir() {
-        if (this.weight > 1000){
-            int price = this.weight * 25000;
-            return price;
-        } else {
-            return 25000;
-        }
+        int price = 25000 / 1000;
+        return price;
     }
-
     public int butter() {
-        if (this.weight > 500){
-            int price = this.weight * 23000;
-            return price;
-        } else {
-            return 23000;
-        }
+        int price = 23000 / 500;
+        return price;
     }
 
     public int ragi() {
-        if (this.weight > 11){
-            int price = this.weight * 5000;
-            return price;
-        } else {
-            return 5000;
-        }
+        int price = 5000 / 11;
+        return price;
     }
     public int susuBubuk() {
-        if (this.weight > 1000){
-            int price = this.weight * 39000;
-            return price;
-        } else {
-            return 39000;
-        }
+       int price = 39000 / 1000;
+       return price;
     }
 
     public int susuCair() {
-        if (this.weight > 1000){
-            int price = this.weight * 24000;
-            return price;
-        } else {
-            return 24000;
-        }
+        int price = 24000 / 1000;
+        return price;
     }
 
     public int telur() {
-        if (this.weight > 1000){
-            int price = this.weight * 23000;
-            return price;
-        } else {
-            return 23000;
-        }
+        int price = 23000 / 1000;
+        return price;
     }
     public int esBatu() {
-        if (this.weight > 1000){
-            int price = this.weight * 2000;
-            return price;
-        } else {
-            return 2000;
-        }
+        int price = 2000 / 1000;
+        return price;
     }
-
 }

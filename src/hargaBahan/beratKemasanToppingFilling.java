@@ -5,10 +5,10 @@ public class beratKemasanToppingFilling implements toppingFilling {
     public int Keju(){
         if (this.weight > 250){
             int price = this.weight * 31000;
-            return price
-
+            return price;
+        } else {
+            return 31000;
         }
-
     }
     
 
