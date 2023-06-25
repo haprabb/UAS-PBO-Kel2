@@ -4,7 +4,6 @@ import Bahan.bahanRoti;
 import javax.swing.*;
 
 public class beratKemasanBahanRoti implements bahanRoti {
-    int weight;
     public int TepungTerigu() {
         int price = 40000 / 1000;
         return price;
