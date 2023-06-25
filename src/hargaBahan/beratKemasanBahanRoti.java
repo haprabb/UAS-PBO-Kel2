@@ -1,35 +1,69 @@
 package hargaBahan;
 import Bahan.bahanRoti;
-public class beratKemasanBahanRoti implements bahanRoti {
-    public int TepungTerigu() {
-        return 40_000;
-    }
 
+import javax.swing.*;
+
+public class beratKemasanBahanRoti implements bahanRoti {
+    int weight;
+    public int TepungTerigu() {
+        if (this.weight > 1000){
+            return this.weight * 40000;
+        } else {
+            return 40000;
+        }
+    }
     public int gulaPasir() {
-        return 25_000;
+        if (this.weight > 1000){
+            return this.weight * 25000;
+        } else {
+            return 25000;
+        }
     }
 
     public int butter() {
-        return 23_000;
+        if (this.weight > 500){
+            return this.weight * 23000;
+        } else {
+            return 23000;
+        }
     }
 
     public int ragi() {
-        return 5_000;
+        if (this.weight > 11){
+            return this.weight * 5000;
+        } else {
+            return 5000;
+        }
     }
-
     public int susuBubuk() {
-        return 39_000;
+        if (this.weight > 1000){
+            return this.weight * 39000;
+        } else {
+            return 39000;
+        }
     }
 
     public int susuCair() {
-        return 24_000;
+        if (this.weight > 1000){
+            return this.weight * 24000;
+        } else {
+            return 24000;
+        }
     }
 
     public int telur() {
-        return 23_000;
+        if (this.weight > 1000){
+            return this.weight * 23000;
+        } else {
+            return 23000;
+        }
+    }
+    public int esBatu() {
+        if (this.weight > 1000){
+            return this.weight * 2000;
+        } else {
+            return 2000;
+        }
     }
 
-    public int esBatu() {
-        return 2_000;
-    }
 }
