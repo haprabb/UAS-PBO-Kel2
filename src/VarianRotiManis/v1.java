@@ -3,7 +3,7 @@ import toppingFilling.toppingFilling;
 public class v1 implements toppingFilling{
 
     @Override
-    public void Keju() {
+    public int Keju() {
 
         return 5;
     }

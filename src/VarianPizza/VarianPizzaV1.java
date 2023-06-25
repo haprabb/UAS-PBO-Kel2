@@ -1,7 +1,7 @@
 package VarianPizza;
 import toppingFilling.toppingFilling;
 public class VarianPizzaV1 implements toppingFilling {
-    public void Keju() {
+    public int Keju() {
         return 30;
     }
 

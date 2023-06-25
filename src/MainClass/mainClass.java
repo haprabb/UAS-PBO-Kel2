@@ -1,6 +1,7 @@
 package MainClass;
 import TampilanAwal.tampilanAwal;
 import Pesanan.pesananRotiManis;
+import Pesanan.pesananPizza;
 
 import java.util.Scanner;
 
@@ -17,6 +18,9 @@ public class mainClass {
 
     pesananRotiManis v3 = new pesananRotiManis();
     v3.ngitungPesananv3();
+
+    pesananPizza v4 = new pesananPizza();
+    v4.pesananPizza();
 
 
     }
