@@ -1,5 +1,7 @@
 package Bahan;
 
+
+
 public interface bahanRoti {
     abstract int TepungTerigu();
     abstract int gulaPasir();
