@@ -14,7 +14,8 @@ public class hargaPesanan {
       int  pesanan.put("Pizza (Varian 1)", 10);
 
     int totalHarga = hargaPesanan(pesanan);
-    System.out.println("Total harga pesanan: Rp " + totalHarga);
+    public void hargaPesanan(){
+    System.out.println("Total harga pesanan: Rp " + totalHarga");
 }
 }
 }
