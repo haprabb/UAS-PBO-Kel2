@@ -1,5 +1,6 @@
 package Menghitung;
 
+
 public class totalBerat {
     int totalBeratBahanRotiManis = totalTepungTeriguRotiManis + totalGulaPasirRotiManis +
             totalButterRotiManis + totalRagiRotiManis + totalSusuBubukRotiManis +
@@ -12,4 +13,5 @@ public class totalBerat {
     int totalBeratBahanPizza = totalTepungTeriguPizza + totalGulaPasirPizza +
             totalButterPizza + totalRagiPizza + totalSusuBubukPizza +
             totalSusuCairPizza + totalTelurPizza + totalEsBatuPizza;
+
 }
