@@ -1,4 +1,5 @@
 package hargaBahan;
+import toppingFilling.toppingFilling;
 
 public class beratKemasanToppingFilling implements toppingFilling{
      public int Keju (){

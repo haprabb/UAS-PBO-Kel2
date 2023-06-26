@@ -5,38 +5,38 @@ import javax.swing.*;
 
 public class beratKemasanBahanRoti implements bahanRoti {
     public int TepungTerigu() {
-        int price = 40000 / 1000;
-        return price;
+        int priceTepungTerigu = 40000 / 1000;
+        return priceTepungTerigu;
     }
     public int gulaPasir() {
-        int price = 25000 / 1000;
-        return price;
+        int priceGulaPasir = 25000 / 1000;
+        return priceGulaPasir;
     }
     public int butter() {
-        int price = 23000 / 500;
-        return price;
+        int priceButter = 23000 / 500;
+        return priceButter;
     }
 
     public int ragi() {
-        int price = 5000 / 11;
-        return price;
+        int priceRagi = 5000 / 11;
+        return priceRagi;
     }
     public int susuBubuk() {
-       int price = 39000 / 1000;
-       return price;
+       int priceSusuBubuk = 39000 / 1000;
+       return priceSusuBubuk;
     }
 
     public int susuCair() {
-        int price = 24000 / 1000;
-        return price;
+        int priceSusuCair = 24000 / 1000;
+        return priceSusuCair;
     }
 
     public int telur() {
-        int price = 23000 / 1000;
-        return price;
+        int priceTelur = 23000 / 1000;
+        return priceTelur;
     }
     public int esBatu() {
-        int price = 2000 / 1000;
-        return price;
+        int priceEsBatu = 2000 / 1000;
+        return priceEsBatu;
     }
 }
