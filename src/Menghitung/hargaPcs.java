@@ -19,5 +19,4 @@ public class hargaPcs {
             orderRotiTawarVarian2)) * 1.4;
     double hargaJualPizza = (modal.hargaModalPizza3() / orderPizzaVarian1) * 1.4;
 
-
 }
