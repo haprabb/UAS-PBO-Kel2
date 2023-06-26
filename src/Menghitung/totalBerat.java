@@ -1,15 +1,15 @@
 package Menghitung;
+import Main.rotiManis;
+import Main.rotiTawar;
+import Main.pizza;
 
-public class totalBerat {
-    int totalBeratBahanRotiManis = totalTepungTeriguRotiManis + totalGulaPasirRotiManis +
-            totalButterRotiManis + totalRagiRotiManis + totalSusuBubukRotiManis +
-            totalSusuCairRotiManis + totalTelurRotiManis + totalEsBatuRotiManis;
+public class totalBerat extends rotiManis {
+    int totalBeratBahanRotiManis = this.TepungTerigu() + this.gulaPasir() + this.butter() +
+            this.ragi() +this.susuBubuk() + this.susuCair() + this.telur() + this.esBatu();
+    int totalBeratBahanRotiTawar = this.TepungTerigu() + this.gulaPasir() + this.butter() +
+            this.ragi() +this.susuBubuk() + this.susuCair() + this.telur() + this.esBatu();
 
-    int totalBeratBahanRotiTawar = totalTepungTeriguRotiTawar + totalGulaPasirRotiTawar +
-            totalButterRotiTawar + totalRagiRotiTawar + totalSusuBubukRotiTawar +
-            totalSusuCairRotiTawar + totalTelurRotiTawar + totalEsBatuRotiTawar;
-
-    int totalBeratBahanPizza = totalTepungTeriguPizza + totalGulaPasirPizza +
-            totalButterPizza + totalRagiPizza + totalSusuBubukPizza +
-            totalSusuCairPizza + totalTelurPizza + totalEsBatuPizza;
+    int totalBeratBahanPizza = this.TepungTerigu() + this.gulaPasir() + this.butter() +
+            this.ragi() +this.susuBubuk() + this.susuCair() + this.telur() + this.esBatu();
 }
+
