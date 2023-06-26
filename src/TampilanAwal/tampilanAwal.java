@@ -6,7 +6,7 @@ import Pesanan.pesananRotiTawar;
 import java.sql.SQLOutput;
 
 public class tampilanAwal {
-    String name ;
+     ;
 
     public void MainMenu(){
         System.out.println("---------------------------------------------------------");

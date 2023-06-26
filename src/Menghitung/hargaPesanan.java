@@ -1,5 +1,5 @@
 package Menghitung;
-
+import Menghitung.hargaPcs;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,8 +13,12 @@ public class hargaPesanan {
       int  pesanan.put("Roti Tawar (Varian 2)", 15);
       int  pesanan.put("Pizza (Varian 1)", 10);
 
+
+
     int totalHarga = hargaPesanan(pesanan);
     public void hargaPesanan(){
+
+        System.out.println("Total jumlah roti");
     System.out.println("Total harga pesanan: Rp " + totalHarga");
 }
 }

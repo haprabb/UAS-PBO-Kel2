@@ -1,6 +1,7 @@
 package Menghitung;
 import Menghitung.modal;
 import MainClass.mainClass;
+import TampilanAwal.tampilanAwal;
 public class hargaPcs {
 
     modal modalRotManis = new modal();

@@ -75,4 +75,5 @@ public class modal extends beratKemasanBahanRoti {
     public static double hargaModalPizza(){
         return modal.modalTepungPizza + modal.modalGulaPizza + modal.modalButterPizza + modal.modalRagiPizza + modal.modalSusuBubukPizza + modal.modalSusuCairPizza + modal.modalTelurPizza + modal.modalEsBatuPizza;
     }
+
 }
