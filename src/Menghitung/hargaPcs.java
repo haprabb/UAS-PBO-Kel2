@@ -13,10 +13,10 @@ public class hargaPcs {
     public double orderPizzaVarian1;
 
     // Menghitung harga jual per pcs roti
-    double hargaJualRotiManis = (modal.hargaModalRotiManis1() / (orderRotiManisVarian1 +
+    double hargaJualRotiManis = (modal.modalRotiManis() / (orderRotiManisVarian1 +
             orderRotiManisVarian2 + orderRotiManisVarian3)) * 1.4;
-    double hargaJualRotiTawar = (modal.hargaModalRotiTawar2() / (orderRotiTawarVarian1 +
+    double hargaJualRotiTawar = (modal.modalRotitawar() / (orderRotiTawarVarian1 +
             orderRotiTawarVarian2)) * 1.4;
-    double hargaJualPizza = (modal.hargaModalPizza3() / orderPizzaVarian1) * 1.4;
+    double hargaJualPizza = (modal.modalPizza() / orderPizzaVarian1) * 1.4;
 
 }
