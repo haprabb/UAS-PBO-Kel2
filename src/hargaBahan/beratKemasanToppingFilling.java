@@ -1,6 +1,6 @@
 package hargaBahan;
 
-public class beratKemasanToppingFilling implements toppingFilling {
+public class beratKemasanToppingFilling implements toppingFilling{
      public int Keju (){
          int price = 31000 / 250;
          return price;
