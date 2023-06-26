@@ -8,7 +8,6 @@ public class totalBerat extends rotiManis {
             this.ragi() +this.susuBubuk() + this.susuCair() + this.telur() + this.esBatu();
     int totalBeratBahanRotiTawar = this.TepungTerigu() + this.gulaPasir() + this.butter() +
             this.ragi() +this.susuBubuk() + this.susuCair() + this.telur() + this.esBatu();
-
     int totalBeratBahanPizza = this.TepungTerigu() + this.gulaPasir() + this.butter() +
             this.ragi() +this.susuBubuk() + this.susuCair() + this.telur() + this.esBatu();
 }
