@@ -6,30 +6,30 @@ import Main.rotiTawar;
 
 public class modal extends beratKemasanBahanRoti {
     // Menghitung harga modal
-    int modalTepungManis;
-    int modalGulaManis;
-    int modalButterManis;
-    int modalRagiManis;
-    int modalSusuBubukManis;
-    int modalSusuCairManis;
-    int modalTelurManis;
-    int modalEsBatuManis;
-    int modalTepungTawar;
-    int modalGulaTawar;
-    int modalButterTawar;
-    int modalRagiTawar;
-    int modalSusuBubukTawar;
-    int modalSusuCairTawar;
-    int modalTelurTawar;
-    int modalEsBatuTawar;
-    int modalTepungPizza;
-    int modalGulaPizza;
-    int modalButterPizza;
-    int modalRagiPizza;
-    int modalSusuBubukPizza;
-    int modalSusuCairPizza;
-    int modalTelurPizza;
-    int modalEsBatuPizza;
+    static int modalTepungManis;
+    static int modalGulaManis;
+    static int modalButterManis;
+    static int modalRagiManis;
+    static int modalSusuBubukManis;
+    static int modalSusuCairManis;
+    static int modalTelurManis;
+    static int modalEsBatuManis;
+    static int modalTepungTawar;
+    static int modalGulaTawar;
+    static int modalButterTawar;
+    static int modalRagiTawar;
+    static int modalSusuBubukTawar;
+    static int modalSusuCairTawar;
+    static int modalTelurTawar;
+    static int modalEsBatuTawar;
+    static int modalTepungPizza;
+    static int modalGulaPizza;
+    static int modalButterPizza;
+    static int modalRagiPizza;
+    static int modalSusuBubukPizza;
+    static int modalSusuCairPizza;
+    static int modalTelurPizza;
+    static int modalEsBatuPizza;
     public void modalRotiManis(){
         int modalTepungManis = this.TepungTerigu() * this.TepungTerigu();
         int modalGulaManis = this.gulaPasir() * this.gulaPasir();
@@ -65,5 +65,15 @@ public class modal extends beratKemasanBahanRoti {
         int totalModalPizza= this.modalTepungPizza + this.modalGulaPizza + this.modalButterPizza + this.modalRagiPizza + this.modalSusuBubukPizza + this.modalSusuCairPizza + this.modalTelurPizza + this.modalEsBatuPizza;
     }
 
+    public static double hargaModalRotiManis1(){
+        return modal.modalTepungManis + modal.modalGulaManis + modal.modalButterManis + modal.modalRagiManis + modal.modalSusuBubukManis + modal.modalSusuCairManis + modal.modalTelurManis + modal.modalEsBatuManis;
+    }
+    public static double hargaModalRotiTawar2(){
+        return modal.modalTepungTawar + modal.modalGulaTawar + modal.modalButterTawar + modal.modalRagiTawar + modal.modalSusuBubukTawar + modal.modalSusuCairTawar + modal.modalTelurTawar + modal.modalEsBatuTawar;
+    }
+
+    public static double hargaModalPizza(){
+        return modal.modalTepungPizza + modal.modalGulaPizza + modal.modalButterPizza + modal.modalRagiPizza + modal.modalSusuBubukPizza + modal.modalSusuCairPizza + modal.modalTelurPizza + modal.modalEsBatuPizza;
+    }
 
 }
