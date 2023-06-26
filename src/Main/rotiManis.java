@@ -6,11 +6,12 @@ public class rotiManis extends beratKemasanBahanRoti implements bahanRoti {
     int doughPcsManis = 50;
     int totalAdonan = 2350;
     public int TepungTerigu() {
-        return 1_000;
+        return 1000;
 
     }
 
     public int gulaPasir() {
+
         return 150;
     }
 
