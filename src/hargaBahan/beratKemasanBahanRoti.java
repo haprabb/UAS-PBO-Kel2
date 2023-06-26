@@ -4,66 +4,39 @@ import Bahan.bahanRoti;
 import javax.swing.*;
 
 public class beratKemasanBahanRoti implements bahanRoti {
-    int weight;
     public int TepungTerigu() {
-        if (this.weight > 1000){
-            return this.weight * 40000;
-        } else {
-            return 40000;
-        }
+        int priceTepungTerigu = 40000 / 1000;
+        return priceTepungTerigu;
     }
     public int gulaPasir() {
-        if (this.weight > 1000){
-            return this.weight * 25000;
-        } else {
-            return 25000;
-        }
+        int priceGulaPasir = 25000 / 1000;
+        return priceGulaPasir;
     }
-
     public int butter() {
-        if (this.weight > 500){
-            return this.weight * 23000;
-        } else {
-            return 23000;
-        }
+        int priceButter = 23000 / 500;
+        return priceButter;
     }
 
     public int ragi() {
-        if (this.weight > 11){
-            return this.weight * 5000;
-        } else {
-            return 5000;
-        }
+        int priceRagi = 5000 / 11;
+        return priceRagi;
     }
     public int susuBubuk() {
-        if (this.weight > 1000){
-            return this.weight * 39000;
-        } else {
-            return 39000;
-        }
+       int priceSusuBubuk = 39000 / 1000;
+       return priceSusuBubuk;
     }
 
     public int susuCair() {
-        if (this.weight > 1000){
-            return this.weight * 24000;
-        } else {
-            return 24000;
-        }
+        int priceSusuCair = 24000 / 1000;
+        return priceSusuCair;
     }
 
     public int telur() {
-        if (this.weight > 1000){
-            return this.weight * 23000;
-        } else {
-            return 23000;
-        }
+        int priceTelur = 23000 / 1000;
+        return priceTelur;
     }
     public int esBatu() {
-        if (this.weight > 1000){
-            return this.weight * 2000;
-        } else {
-            return 2000;
-        }
+        int priceEsBatu = 2000 / 1000;
+        return priceEsBatu;
     }
-
 }

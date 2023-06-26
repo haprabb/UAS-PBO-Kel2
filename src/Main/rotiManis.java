@@ -1,19 +1,22 @@
 package Main;
 import Bahan.bahanRoti;
+import hargaBahan.beratKemasanBahanRoti;
 
-public class rotiManis implements bahanRoti {
+public class rotiManis extends beratKemasanBahanRoti implements bahanRoti {
+    int doughPcsManis = 50;
+    int totalAdonan = 2350;
     public int TepungTerigu() {
         return 1_000;
+
     }
 
     public int gulaPasir() {
-
         return 150;
     }
 
     public int butter() {
-
         return 150;
+
     }
 
     public int ragi() {
@@ -39,5 +42,10 @@ public class rotiManis implements bahanRoti {
     public int esBatu() {
 
         return 400;
+    }
+
+    public int adonanManis (){
+        int pcsRotiManis = this.totalAdonan / this.doughPcsManis;
+        return pcsRotiManis;
     }
 }
