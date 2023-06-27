@@ -1,15 +1,20 @@
 package MainClass;
-import TampilanAwal.tampilanAwal;
 
+import Main.rotiManis;
+import TampilanAwal.tampilanAwal;
+import Bahan.bahanRoti;
+import hargaBahan.beratKemasanBahanRoti;
 
 import java.util.Scanner;
 
 public class mainClass {
     public static void main(String[] args) {
-    tampilanAwal awal = new tampilanAwal();
-    awal.MainMenu();
+        tampilanAwal awal = new tampilanAwal();
+        awal.MainMenu();
+
+        rotiManis manis = new rotiManis();
 
 
+        }
+        }
 
-    }
-}
