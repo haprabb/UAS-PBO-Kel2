@@ -24,7 +24,6 @@ public class hargaPesanan {
         }
         return totalHarga;
     }
-
     public void tampilkanHargaPesanan() {
         System.out.println("Total harga pesanan: Rp " + hargaPesanan());
     }
