@@ -4,6 +4,7 @@ import Main.rotiManis;
 import TampilanAwal.tampilanAwal;
 import Bahan.bahanRoti;
 import hargaBahan.beratKemasanBahanRoti;
+import Menghitung.hargaPesanan
 
 import java.util.Scanner;
 
@@ -12,6 +13,8 @@ public class mainClass {
     public static void main(String[] args) {
         tampilanAwal awal = new tampilanAwal();
         awal.MainMenu();
+        hargaPesanan pesanan = new hargaPesanan();
+
 
 
         // Membuat objek roti manis
@@ -32,6 +35,9 @@ public class mainClass {
 
                 // Menampilkan jumlah adonan roti manis
                 System.out.println("Jumlah Adonan Roti Manis: " + rotiManis.adonanManis() + " pcs");
+
+                // Menampilkan harga pesanan
+                 System.out.println( "Total harga pesanan: Rp " + hargaPesanan(););
             }
         }
 
