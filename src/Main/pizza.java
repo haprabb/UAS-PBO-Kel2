@@ -1,6 +1,8 @@
 package Main;
 import Bahan.bahanRoti;
 public class pizza implements bahanRoti{
+    int totalAdonan= 1950;
+    int doughPcsPizza = 190;
 
     public int TepungTerigu() {
 
@@ -47,5 +49,9 @@ public class pizza implements bahanRoti{
     public int esBatu() {
 
         return 300;
+    }
+    public int adonanPizza () {
+        int pcsRotiPizza = this.totalAdonan / this.doughPcsPizza;
+        return pcsRotiPizza;
     }
 }

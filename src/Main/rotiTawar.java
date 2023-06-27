@@ -1,8 +1,10 @@
 package Main;
 import Bahan.bahanRoti;
-
+import hargaBahan.beratKemasanBahanRoti;
 
 public class rotiTawar implements bahanRoti {
+    int doughPcsTawar = 400;
+    int totalAdonan = 2065;
     public int TepungTerigu() {
 
         return 1000;
@@ -41,5 +43,9 @@ public class rotiTawar implements bahanRoti {
     public int esBatu() {
 
         return 300;
+    }
+    public int adonanTawar () {
+        int pcsRotiTawar = this.totalAdonan / this.doughPcsTawar;
+        return pcsRotiTawar;
     }
 }

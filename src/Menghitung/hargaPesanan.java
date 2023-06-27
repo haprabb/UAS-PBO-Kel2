@@ -1,5 +1,4 @@
 package Menghitung;
-
 import Menghitung.hargaPcs;
 import java.util.HashMap;
 import java.util.Map;
@@ -7,21 +6,20 @@ import java.util.Map;
 public class hargaPesanan {
     // Menghitung harga pesanan
     Map<String, Integer> pesanan = new HashMap<>();
-    static int ngitungpesananv1;
-    static int ngitungpesananv2;
-    static int ngitungpesananv3;
-    static int pesananrotiTawarV1;
-    static int pesananrotiTawarV2;
-    static int pesananPizza;
+      int  pesanan.put("Roti Manis (Varian 1)", 50);
+      int  pesanan.put("Roti Manis (Varian 2)", 100);
+      int pesanan.put("Roti Manis (Varian 3)", 70);
+      int  pesanan.put("Roti Tawar (Varian 1)", 20);
+      int  pesanan.put("Roti Tawar (Varian 2)", 15);
+      int  pesanan.put("Pizza (Varian 1)", 10);
 
-    public void hitungHargaPesanan() {
-        int totalHarga = hargaPesanan(pesanan);
-        System.out.println("Total harga pesanan: Rp " + totalHarga);
-    }
 
-    private int hargaPesanan(Map<String, Integer> pesanan) {
-        // Implementasi untuk menghitung harga pesanan berdasarkan pesanan yang ada
-        // ...
-        return 0; // Ganti 0 dengan nilai yang sesuai setelah implementasi
-    }
+
+    int totalHarga = hargaPesanan(pesanan);
+    public void hargaPesanan(){
+
+        System.out.println("Total jumlah roti"                  );
+    System.out.println("Total harga pesanan: Rp " + totalHarga");
+}
+}
 }

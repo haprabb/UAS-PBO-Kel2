@@ -1,23 +1,26 @@
 package Menghitung;
 import Menghitung.modal;
 import MainClass.mainClass;
-import TampilanAwal.tampilanAwal;
+import Pesanan.pesananRotiManis;
+import Pesanan.pesananPizza;
+import Pesanan.pesananRotiTawar;
+
+
 public class hargaPcs {
 
     modal modalRotManis = new modal();
+    pesananRotiManis OrderanRotiManisV1 = new pesananRotiManis();
+    pesananRotiTawar OrderanRotiTawarV2 = new pesananRotiTawar();
     public double totalModal;
-    public double orderRotiManisVarian1;
-    public double orderRotiManisVarian2;
-    public double orderRotiManisVarian3;
-    public double orderRotiTawarVarian1;
-    public double orderRotiTawarVarian2;
-    public double orderPizzaVarian1;
 
     // Menghitung harga jual per pcs roti
-    double hargaJualRotiManis = (modal.hargaModalRotiManis1() / (orderRotiManisVarian1 +
-            orderRotiManisVarian2 + orderRotiManisVarian3)) * 1.4;
-    double hargaJualRotiTawar = (modal.hargaModalRotiTawar2() / (orderRotiTawarVarian1 +
-            orderRotiTawarVarian2)) * 1.4;
-    double hargaJualPizza = (modal.hargaModalPizza() / orderPizzaVarian1) * 1.4;
+    public static double hargaJualRotiManis () {
+        return modal.hargaModalRotiManis1() / pesananRotiManis.angka + pesananRotiManis.angka2 + pesananRotiManis.angka3 * 1.4;
+    }
+    public static double hargaJualRotiTawar() {
+        return modal.hargaModalRotiTawar2() / pesananRotiTawar.angka4 + pesananRotiTawar.angka5 * 1.4;}
+    public static double hargaJualPizza()
+    {
+        return modal.hargaModalPizza() / pesananPizza.angka6 *1.4;}
+    }
 
-}
