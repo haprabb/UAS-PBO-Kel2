@@ -4,23 +4,27 @@ import MainClass.mainClass;
 import Pesanan.pesananRotiManis;
 import Pesanan.pesananPizza;
 import Pesanan.pesananRotiTawar;
-
+import Main.pizza;
+import Main.rotiTawar;
+import Main.rotiManis;
 
 public class hargaPcs {
 
-    modal modalRotManis = new modal();
+    modal modalRotiManis = new modal();
     pesananRotiManis OrderanRotiManisV1 = new pesananRotiManis();
     pesananRotiTawar OrderanRotiTawarV2 = new pesananRotiTawar();
     public double totalModal;
 
     // Menghitung harga jual per pcs roti
     public static double hargaJualRotiManis () {
-        return modal.hargaModalRotiManis1() / pesananRotiManis.angka + pesananRotiManis.angka2 + pesananRotiManis.angka3 * 1.4;
+        modal.modalRotiManis();
+        return (modal.modalTepungManis + modal.modalGulaManis + modal.modalButterManis + modal.modalRagiManis + modal.modalSusuBubukManis + modal.modalSusuCairManis + modal.modalTelurManis + modal.modalEsBatuManis) + ((40/100) * (modal.modalTepungManis + modal.modalGulaManis + modal.modalButterManis + modal.modalRagiManis + modal.modalSusuBubukManis + modal.modalSusuCairManis + modal.modalTelurManis + modal.modalEsBatuManis));
     }
     public static double hargaJualRotiTawar() {
-        return modal.hargaModalRotiTawar2() / pesananRotiTawar.angka4 + pesananRotiTawar.angka5 * 1.4;}
+        modal.hargaModalRotiTawar2();
+        return (modal.modalTepungTawar + modal.modalGulaTawar + modal.modalButterTawar + modal.modalRagiTawar + modal.modalSusuBubukTawar + modal.modalSusuCairTawar + modal.modalTelurTawar + modal.modalEsBatuTawar)  * 1.4;}
     public static double hargaJualPizza()
-    {
-        return modal.hargaModalPizza() / pesananPizza.angka6 *1.4;}
+    {   modal.hargaModalPizza();
+        return (modal.modalTepungPizza + modal.modalGulaPizza + modal.modalButterPizza + modal.modalRagiPizza + modal.modalSusuBubukPizza + modal.modalSusuCairPizza + modal.modalTelurPizza + modal.modalEsBatuPizza) * 1.4;}
     }
 

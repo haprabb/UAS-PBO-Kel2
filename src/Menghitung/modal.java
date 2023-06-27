@@ -3,8 +3,14 @@ import hargaBahan.beratKemasanBahanRoti;
 import hargaBahan.beratKemasanToppingFilling;
 import Main.rotiManis;
 import Main.rotiTawar;
+import Main.pizza;
 
 public class modal extends beratKemasanBahanRoti {
+
+    static pizza AdonanPizza = new pizza();
+    static rotiManis AdonanRotiManis = new rotiManis();
+    static rotiTawar AdonanRotiTawar = new rotiTawar();
+
     // Menghitung harga modal
     static int modalTepungManis;
     static int modalGulaManis;
@@ -30,38 +36,39 @@ public class modal extends beratKemasanBahanRoti {
     static int modalSusuCairPizza;
     static int modalTelurPizza;
     static int modalEsBatuPizza;
-    public void modalRotiManis(){
-        int modalTepungManis = this.TepungTerigu() * this.TepungTerigu();
-        int modalGulaManis = this.gulaPasir() * this.gulaPasir();
-        int modalButterManis = this.butter() * this.butter();
-        int modalRagiManis = this.ragi() * this.ragi();
-        int modalSusuBubukManis = this.susuBubuk() * this.susuBubuk();
-        int modalSusuCairManis= this.susuCair() * this.susuCair() ;
-        int modalTelurManis = this.telur() * this.telur() ;
-        int modalEsBatuManis = this.esBatu() * this.esBatu();
+    public static void modalRotiManis(){
+        modal. modalTepungManis = modal.TepungTerigu() * modal.TepungTerigu() / modal.AdonanRotiManis.adonanManis();
+        modal.modalGulaManis = modal.gulaPasir() * modal.gulaPasir()/ modal.AdonanRotiManis.adonanManis();
+        modal. modalButterManis = modal.butter() * modal.butter()/ modal.AdonanRotiManis.adonanManis();
+        modal. modalRagiManis = modal.ragi() * modal.ragi()/ modal.AdonanRotiManis.adonanManis();
+        modal.modalSusuBubukManis = modal.susuBubuk() * modal.susuBubuk()/ modal.AdonanRotiManis.adonanManis();
+        modal. modalSusuCairManis= modal.susuCair() * modal.susuCair() / modal.AdonanRotiManis.adonanManis();
+        modal.modalTelurManis = modal.telur() * modal.telur() / modal.AdonanRotiManis.adonanManis();
+        modal.modalEsBatuManis = modal.esBatu() * modal.esBatu()/ modal.AdonanRotiManis.adonanManis();
 
     }
 
     public void modalRotitawar(){
-        int modalTepungTawar = this.TepungTerigu() * this.TepungTerigu();
-        int modalGulaTawar= this.gulaPasir() * this.gulaPasir();
-        int modalButterTawar = this.butter() * this.butter();
-        int modalRagiTawar = this.ragi() * this.ragi();
-        int modalSusuBubukTawar = this.susuBubuk() * this.susuBubuk();
-        int modalSusuCairTawar= this.susuCair() * this.susuCair() ;
-        int modalTelurTawar = this.telur() * this.telur() ;
-        int modalEsBatuTawar = this.esBatu() * this.esBatu();
+        this.modalTepungTawar = this.TepungTerigu() * this.TepungTerigu() / this.AdonanRotiTawar.adonanTawar();
+        this.modalGulaTawar= this.gulaPasir() * this.gulaPasir()/ this.AdonanRotiTawar.adonanTawar();
+        this.modalButterTawar = this.butter() * this.butter()/ this.AdonanRotiTawar.adonanTawar();
+        this.modalRagiTawar = this.ragi() * this.ragi()/ this.AdonanRotiTawar.adonanTawar();
+        this.modalSusuBubukTawar = this.susuBubuk() * this.susuBubuk()/ this.AdonanRotiTawar.adonanTawar();
+        this.modalSusuCairTawar= this.susuCair() * this.susuCair()/ this.AdonanRotiTawar.adonanTawar() ;
+        this.modalTelurTawar = this.telur() * this.telur()/ this.AdonanRotiTawar.adonanTawar() ;
+        this.modalEsBatuTawar = this.esBatu() * this.esBatu()/ this.AdonanRotiTawar.adonanTawar();
 
     }
     public void modalPizza(){
-        int modalTepungPizza = this.TepungTerigu() * this.TepungTerigu();
-        int modalGulaPizza = this.gulaPasir() * this.gulaPasir();
-        int modalButterPizza = this.butter() * this.butter();
-        int modalRagiPizza = this.ragi() * this.ragi();
-        int modalSusuBubukPizza = this.susuBubuk() * this.susuBubuk();
-        int modalSusuCairPizza = this.susuCair() * this.susuCair() ;
-        int modalTelurPizza = this.telur() * this.telur() ;
-        int modalEsBatuPizza = this.esBatu() * this.esBatu();
+
+        this.modalTepungPizza = this.TepungTerigu() * this.TepungTerigu() / this.AdonanPizza.adonanPizza();
+        this. modalGulaPizza = this.gulaPasir() * this.gulaPasir() / this.AdonanPizza.adonanPizza();
+        this.modalButterPizza = this.butter() * this.butter() / this.AdonanPizza.adonanPizza();
+        this.modalRagiPizza = this.ragi() * this.ragi() / this.AdonanPizza.adonanPizza();
+        this.modalSusuBubukPizza = this.susuBubuk() * this.susuBubuk() / this.AdonanPizza.adonanPizza();
+        this.modalSusuCairPizza = this.susuCair() * this.susuCair() / this.AdonanPizza.adonanPizza();
+        this.modalTelurPizza = this.telur() * this.telur() / this.AdonanPizza.adonanPizza();
+        this.modalEsBatuPizza = this.esBatu() * this.esBatu() / this.AdonanPizza.adonanPizza();
 
     }
 

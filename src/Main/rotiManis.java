@@ -5,42 +5,42 @@ import hargaBahan.beratKemasanBahanRoti;
 public class rotiManis extends beratKemasanBahanRoti implements bahanRoti {
     int doughPcsManis = 50;
     int totalAdonan = 2350;
-    public int TepungTerigu() {
+    public static int TepungTerigu() {
         return 1_000;
 
     }
 
-    public int gulaPasir() {
+    public static int gulaPasir() {
 
         return 150;
     }
 
-    public int butter() {
+    public static int butter() {
         return 150;
 
     }
 
-    public int ragi() {
+    public static int ragi() {
 
         return 20;
     }
 
-    public int susuBubuk() {
+    public static int susuBubuk() {
 
         return 300;
     }
 
-    public int susuCair() {
+    public static int susuCair() {
 
         return 250;
     }
 
-    public int telur() {
+    public static int telur() {
 
         return 80;
     }
 
-    public int esBatu() {
+    public static int esBatu() {
 
         return 400;
     }

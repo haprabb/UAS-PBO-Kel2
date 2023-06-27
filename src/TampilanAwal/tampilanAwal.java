@@ -11,6 +11,7 @@ import Pesanan.pesananPizza;
 import Pesanan.pesananRotiTawar;
 import hargaBahan.beratKemasanBahanRoti;
 
+
 import java.sql.SQLOutput;
 
 public class tampilanAwal {
@@ -116,10 +117,9 @@ public class tampilanAwal {
 
         pesananRotiTawar v6 = new pesananRotiTawar();
         v6.PesananrotiTawarV2();
-        hargaPesanan pesanan = new hargaPesanan();
 
-        // Menampilkan harga pesanan
-        System.out.println( "Total harga pesanan: Rp " + new hargaPesanan());
+        System.out.println("Total harga Roti adlaah = Rp." + hargaPesanan.hargaPesananfilal());
+
    }
 
 
